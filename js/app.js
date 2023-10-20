@@ -1,7 +1,6 @@
 let counterResult = 0;
 
 const counterDisplay = document.querySelector('#counter');
-const countButtons = document.querySelector('#count-buttons');
 const addCountButton = document.querySelector('#add-count');
 const lowerCountButton = document.querySelector('#lower-count');
 
@@ -30,6 +29,8 @@ lowerCountButton.addEventListener('click', () => {
     counterDisplayColor();
 })
 
+
+// const countButtons = document.querySelector('#count-buttons');
 // countButtons.addEventListener('click', (e) => {
 //     if (e.target.id === 'add-count') {
 //         counterResult++
